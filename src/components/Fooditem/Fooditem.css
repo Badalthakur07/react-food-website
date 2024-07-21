@@ -1,0 +1,44 @@
+.food-item{
+width: 250px;
+margin: auto;
+border-radius: 15px;
+box-shadow: 0px 0px 10px #00000015;
+transition: 0.3s;
+animation: fadeIn 1s;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.food-item .img{
+    width: 200px;
+}
+.rating{
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-around;
+margin-top: 10px;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.rating ,p{
+width: 200px;
+margin-bottom: 6px;
+font-size: 14px;
+}
+.food-item-desc{
+    /* width: 200px; */
+    margin-bottom: 7px;
+}
+.food-item-price{
+    margin-bottom: 27px;
+    color: tomato;
+}
+.food-item-counter{
+   width: 10px;
+}
+
+.food-item-counter{
+    background-color: yellow;
+    position: relative;
+   
+}
